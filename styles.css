@@ -30,6 +30,11 @@ div {
     padding: 10px;
 }
 
+.form-fields-boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .cta-box {
     padding: 30px 20px 200px 10px;
     
