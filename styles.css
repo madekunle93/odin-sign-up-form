@@ -6,3 +6,31 @@ div {
     border: 1px solid blue;
 }
 
+.page {
+    display: flex;
+}
+
+.feature-box {
+}
+
+.text-box {
+    padding: 30px;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.primary-text {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.form-fields {
+    padding: 10px;
+}
+
+.cta-box {
+    padding: 30px 20px 200px 10px;
+    
+}
