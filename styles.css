@@ -87,6 +87,24 @@ body {
     padding-left: 60px;
 }
 
+input {
+    border: 1px solid #E5E7EB; /* light gray */
+    padding: 8px;
+    border-radius: 4px;
+    transition: all 0.2s ease; /* smooth transition for focus effect */
+  }
+
+input:focus {
+    border: 1px solid #3B82F6; /* Tailwind's blue-500 */
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2); /* soft blue glow */
+    outline: none; /* remove default outline */
+  }
+  
+
+input[type="password"]:invalid {
+    border: 1px solid rgba(188, 0, 0, 0.565);
+  }  
+
 .cta-box {
     padding: 30px 20px 200px 40px;
     background-color: #e1e1e11e;
