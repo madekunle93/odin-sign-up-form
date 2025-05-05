@@ -11,6 +11,7 @@ div {
 }
 
 .feature-box {
+    width: 600px;
 }
 
 .text-box {
@@ -33,6 +34,22 @@ div {
 .form-fields-boxes {
     display: flex;
     flex-wrap: wrap;
+}
+
+.fields-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.fields-box-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.fields-box-right {
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
 }
 
 .cta-box {
